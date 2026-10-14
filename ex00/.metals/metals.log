@@ -1,0 +1,883 @@
+2026.09.15 16:54:41 INFO  Started: Metals version 1.6.9 in folders '/Users/Nhi/Downloads/cose212/scala-tutorial' for client Visual Studio Code 1.137.0.
+2026.09.15 16:54:41 INFO  Memory monitor started
+2026.09.15 16:54:41 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.15 16:54:48 INFO  running '/opt/homebrew/bin/sbt -Dbloop.export-jar-classifiers=sources -Dbloop.export-meta-build=true bloopInstall'
+2026.09.15 16:54:48 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.15 16:54:48 WARN  no build target for: /Users/Nhi/Downloads/cose212/scala-tutorial/project/metals.sbt
+2026.09.15 16:54:48 WARN  no build target for: /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/metals.sbt
+2026.09.15 16:54:48 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.9  (this may take some time)...
+2026.09.15 16:54:51 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.15 16:54:52 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2026.09.15 16:54:53 INFO  [info] welcome to sbt 1.9.9 (Eclipse Adoptium Java 21.0.12.1)
+2026.09.15 16:54:53 INFO  [info] loading settings for project scala-tutorial-build-build-build from metals.sbt ...
+2026.09.15 16:54:54 INFO  [info] loading project definition from /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/project
+2026.09.15 16:54:55 INFO  [info] loading settings for project scala-tutorial-build-build from metals.sbt ...
+2026.09.15 16:54:55 INFO  [info] loading project definition from /Users/Nhi/Downloads/cose212/scala-tutorial/project/project
+2026.09.15 16:54:57 INFO  [success] Generated .bloop/scala-tutorial-build-build.json
+2026.09.15 16:54:57 INFO  [success] Total time: 1 s, completed Sep 15, 2026, 4:54:57 PM
+2026.09.15 16:54:57 INFO  [info] loading settings for project scala-tutorial-build from metals.sbt,plugins.sbt ...
+2026.09.15 16:54:57 INFO  [info] loading project definition from /Users/Nhi/Downloads/cose212/scala-tutorial/project
+2026.09.15 16:54:58 INFO  [success] Generated .bloop/scala-tutorial-build.json
+2026.09.15 16:54:58 INFO  [success] Total time: 1 s, completed Sep 15, 2026, 4:54:58 PM
+2026.09.15 16:54:59 INFO  [info] loading settings for project root from build.sbt ...
+2026.09.15 16:54:59 INFO  [info] set current project to scala-tutorial (in build file:/Users/Nhi/Downloads/cose212/scala-tutorial/)
+2026.09.15 16:55:03 INFO  [success] Generated .bloop/root.json
+2026.09.15 16:55:03 INFO  [success] Generated .bloop/root-test.json
+2026.09.15 16:55:03 INFO  [success] Total time: 4 s, completed Sep 15, 2026, 4:55:03 PM
+2026.09.15 16:55:03 INFO  time: ran 'sbt bloopInstall' in 14s
+2026.09.15 16:55:03 INFO  Attempting to connect to the build server...
+2026.09.15 16:55:03 INFO  No running Bloop server found, starting one.
+2026.09.15 16:55:08 INFO  Starting compilation server
+2026.09.15 16:55:08 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.09.15 16:55:09 INFO  Attempting to connect to the build server...
+2026.09.15 16:55:09 INFO  Found a Bloop server running
+2026.09.15 16:55:09 INFO  Attempting to connect to the build server...
+2026.09.15 16:55:09 INFO  Found a Bloop server running
+2026.09.15 16:55:09 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.09.15 16:55:09 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.09.15 16:55:10 INFO  time: Connected to build server in 7.34s
+2026.09.15 16:55:10 INFO  Connected to Build server: Bloop v2.1.2
+2026.09.15 16:55:12 WARN  3.3.3 is no longer supported in the current Metals versions, using the last known supported version 1.5.1
+Sep 15, 2026 4:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Sep 15, 2026 4:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Sep 15, 2026 4:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 15, 2026 4:55:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2026.09.15 16:55:16 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.15 16:55:25 INFO  time: indexed workspace in 14s
+2026.09.15 16:55:25 INFO  compiling root (3 scala sources)
+2026.09.15 16:55:27 INFO  time: compiled root in 1.51s
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Sep 15, 2026 5:03:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 15, 2026 5:03:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.09.15 17:07:26 INFO  compiling root (3 scala sources)
+2026.09.15 17:07:26 INFO  time: compiled root in 0.48s
+2026.09.15 17:11:59 INFO  compiling root (3 scala sources)
+2026.09.15 17:11:59 INFO  time: compiled root in 0.56s
+2026.09.15 17:12:16 INFO  compiling root (3 scala sources)
+2026.09.15 17:12:16 INFO  time: compiled root in 0.37s
+2026.09.15 17:12:31 ERROR scalafmt: [3.3.1] /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:21: error: [dialect scala3] illegal start of simple expression
+  def fixpoint(f: Int => Int): Int => Int = n => ???
+  ^
+2026.09.15 17:12:31 INFO  compiling root (3 scala sources)
+2026.09.15 17:12:31 INFO  time: compiled root in 0.2s
+2026.09.15 17:12:36 INFO  compiling root (3 scala sources)
+2026.09.15 17:12:36 INFO  time: compiled root in 0.5s
+2026.09.15 17:12:44 INFO  compiling root (3 scala sources)
+2026.09.15 17:12:44 INFO  time: compiled root in 0.17s
+2026.09.15 17:12:48 INFO  compiling root (3 scala sources)
+2026.09.15 17:12:48 INFO  time: compiled root in 0.32s
+2026.09.15 17:13:37 INFO  compiling root (3 scala sources)
+Sep 15, 2026 5:13:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1392
+2026.09.15 17:13:37 INFO  time: compiled root in 0.51s
+2026.09.15 17:14:28 INFO  compiling root (3 scala sources)
+2026.09.15 17:14:28 INFO  time: compiled root in 0.3s
+2026.09.15 17:15:23 INFO  compiling root (3 scala sources)
+2026.09.15 17:15:23 INFO  time: compiled root in 0.33s
+2026.09.15 17:19:32 INFO  compiling root (3 scala sources)
+2026.09.15 17:19:32 INFO  time: compiled root in 0.47s
+2026.09.15 17:21:01 INFO  compiling root (3 scala sources)
+2026.09.15 17:21:01 INFO  time: compiled root in 0.26s
+2026.09.15 17:21:21 INFO  compiling root (3 scala sources)
+2026.09.15 17:21:21 INFO  time: compiled root in 0.21s
+2026.09.15 17:21:26 ERROR scalafmt: [3.3.1] /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:28: error: [dialect scala3] illegal start of simple expression
+  def fixpoint(f: Int => Int): Int => Int = n => ???
+  ^
+2026.09.15 17:21:26 INFO  compiling root (3 scala sources)
+2026.09.15 17:21:26 INFO  time: compiled root in 93ms
+Sep 15, 2026 5:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2425
+2026.09.15 17:21:48 INFO  compiling root (3 scala sources)
+2026.09.15 17:21:48 INFO  time: compiled root in 97ms
+2026.09.15 17:22:10 INFO  compiling root (3 scala sources)
+2026.09.15 17:22:10 INFO  time: compiled root in 0.27s
+Sep 15, 2026 5:24:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2705
+2026.09.15 17:24:29 INFO  compiling root (3 scala sources)
+2026.09.15 17:24:29 INFO  time: compiled root in 0.18s
+Sep 15, 2026 5:26:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3125
+2026.09.15 17:26:18 INFO  compiling root (3 scala sources)
+2026.09.15 17:26:18 INFO  time: compiled root in 0.23s
+2026.09.15 17:26:21 ERROR scalafmt: [3.3.1] /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:31: error: [dialect scala3] illegal start of simple expression
+  def fixpoint(f: Int => Int): Int => Int = n => ???
+  ^
+2026.09.15 17:26:21 INFO  compiling root (3 scala sources)
+2026.09.15 17:26:21 INFO  time: compiled root in 78ms
+2026.09.15 17:26:30 INFO  compiling root (3 scala sources)
+2026.09.15 17:26:30 INFO  time: compiled root in 0.16s
+2026.09.15 17:29:07 INFO  compiling root (3 scala sources)
+2026.09.15 17:29:07 INFO  time: compiled root in 0.17s
+2026.09.16 01:05:41 INFO  compiling root (3 scala sources)
+2026.09.16 01:05:41 INFO  time: compiled root in 0.18s
+2026.09.16 01:20:23 INFO  compiling root (3 scala sources)
+2026.09.16 01:20:23 INFO  time: compiled root in 0.25s
+2026.09.16 01:20:34 INFO  compiling root (3 scala sources)
+2026.09.16 01:20:34 INFO  time: compiled root in 0.13s
+Sep 16, 2026 1:30:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4948
+2026.09.16 01:30:34 INFO  compiling root (3 scala sources)
+2026.09.16 01:30:34 INFO  time: compiled root in 0.18s
+2026.09.16 01:32:45 INFO  compiling root (3 scala sources)
+2026.09.16 01:32:45 INFO  time: compiled root in 0.24s
+2026.09.16 01:33:04 INFO  compiling root (3 scala sources)
+2026.09.16 01:33:04 INFO  time: compiled root in 0.13s
+2026.09.16 01:33:52 INFO  compiling root (3 scala sources)
+2026.09.16 01:33:52 INFO  time: compiled root in 0.14s
+2026.09.16 01:41:46 INFO  compiling root (3 scala sources)
+2026.09.16 01:41:46 INFO  time: compiled root in 0.19s
+2026.09.16 01:41:55 INFO  compiling root (3 scala sources)
+2026.09.16 01:41:55 INFO  time: compiled root in 0.16s
+2026.09.16 01:42:13 ERROR scalafmt: [3.3.1] /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:32: error: [dialect scala3] ) expected but => found
+    if f(n) == 0 then 0 else fixpoint(f(f(n)) => Int)
+                                              ^
+2026.09.16 01:42:13 INFO  compiling root (3 scala sources)
+2026.09.16 01:42:13 INFO  time: compiled root in 0.16s
+2026.09.16 01:42:17 INFO  compiling root (3 scala sources)
+2026.09.16 01:42:17 INFO  time: compiled root in 0.15s
+2026.09.16 01:43:52 INFO  compiling root (3 scala sources)
+2026.09.16 01:43:52 INFO  time: compiled root in 0.14s
+2026.09.16 01:47:42 INFO  compiling root (3 scala sources)
+2026.09.16 01:47:42 INFO  time: compiled root in 0.14s
+Sep 16, 2026 1:59:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6356
+2026.09.16 02:00:03 INFO  compiling root (3 scala sources)
+2026.09.16 02:00:03 INFO  time: compiled root in 0.15s
+2026.09.16 02:00:34 INFO  compiling root (3 scala sources)
+2026.09.16 02:00:34 INFO  time: compiled root in 0.13s
+2026.09.16 02:08:16 INFO  compiling root (3 scala sources)
+2026.09.16 02:08:16 INFO  time: compiled root in 0.22s
+Sep 16, 2026 2:08:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6669
+2026.09.16 02:08:39 INFO  compiling root (3 scala sources)
+2026.09.16 02:08:39 INFO  time: compiled root in 0.12s
+2026.09.16 02:08:42 INFO  compiling root (3 scala sources)
+2026.09.16 02:08:42 INFO  time: compiled root in 0.12s
+2026.09.16 02:10:26 INFO  compiling root (3 scala sources)
+2026.09.16 02:10:26 INFO  time: compiled root in 0.13s
+2026.09.16 02:13:14 INFO  compiling root (3 scala sources)
+2026.09.16 02:13:14 INFO  time: compiled root in 0.27s
+2026.09.16 02:13:41 INFO  compiling root (3 scala sources)
+2026.09.16 02:13:41 INFO  time: compiled root in 0.2s
+2026.09.16 02:13:58 INFO  compiling root (3 scala sources)
+2026.09.16 02:13:58 INFO  time: compiled root in 0.17s
+2026.09.16 02:14:03 INFO  compiling root (3 scala sources)
+2026.09.16 02:14:03 INFO  time: compiled root in 0.15s
+2026.09.16 02:14:08 INFO  compiling root (3 scala sources)
+2026.09.16 02:14:08 INFO  time: compiled root in 0.14s
+2026.09.16 02:14:27 INFO  compiling root (3 scala sources)
+2026.09.16 02:14:27 INFO  time: compiled root in 0.14s
+2026.09.16 02:14:46 INFO  compiling root (3 scala sources)
+2026.09.16 02:14:46 INFO  time: compiled root in 0.14s
+2026.09.16 02:16:19 INFO  compiling root (3 scala sources)
+2026.09.16 02:16:19 INFO  time: compiled root in 81ms
+2026.09.16 02:16:22 INFO  compiling root (3 scala sources)
+2026.09.16 02:16:22 INFO  time: compiled root in 0.15s
+2026.09.16 02:16:27 INFO  compiling root (3 scala sources)
+2026.09.16 02:16:27 INFO  time: compiled root in 77ms
+2026.09.16 02:16:45 INFO  compiling root (3 scala sources)
+2026.09.16 02:16:45 INFO  time: compiled root in 0.14s
+2026.09.16 02:16:57 INFO  compiling root (3 scala sources)
+2026.09.16 02:16:57 INFO  time: compiled root in 0.14s
+2026.09.16 02:17:08 INFO  compiling root (3 scala sources)
+2026.09.16 02:17:08 INFO  time: compiled root in 0.11s
+2026.09.16 02:17:38 INFO  compiling root (3 scala sources)
+2026.09.16 02:17:38 INFO  time: compiled root in 0.11s
+2026.09.16 02:18:12 INFO  compiling root (3 scala sources)
+2026.09.16 02:18:12 INFO  time: compiled root in 0.11s
+2026.09.16 02:18:55 INFO  compiling root (3 scala sources)
+2026.09.16 02:18:55 INFO  time: compiled root in 0.11s
+2026.09.16 02:18:57 INFO  compiling root (3 scala sources)
+2026.09.16 02:18:57 INFO  time: compiled root in 83ms
+Sep 16, 2026 2:19:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7653
+2026.09.16 02:19:09 INFO  compiling root (3 scala sources)
+2026.09.16 02:19:09 INFO  time: compiled root in 0.15s
+2026.09.16 02:19:14 INFO  compiling root (3 scala sources)
+2026.09.16 02:19:14 INFO  time: compiled root in 0.13s
+2026.09.16 02:19:18 INFO  compiling root (3 scala sources)
+2026.09.16 02:19:18 INFO  time: compiled root in 0.13s
+2026.09.16 02:19:37 INFO  compiling root (3 scala sources)
+2026.09.16 02:19:37 INFO  time: compiled root in 0.16s
+2026.09.16 02:19:48 INFO  compiling root (3 scala sources)
+2026.09.16 02:19:48 INFO  time: compiled root in 0.14s
+2026.09.16 02:19:55 INFO  compiling root (3 scala sources)
+2026.09.16 02:19:55 INFO  time: compiled root in 0.11s
+Exception in thread "pool-7-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026.09.16 02:23:02 INFO  compiling root (3 scala sources)
+2026.09.16 02:23:02 INFO  time: compiled root in 0.12s
+2026.09.16 02:24:31 INFO  compiling root (3 scala sources)
+2026.09.16 02:24:31 INFO  time: compiled root in 0.12s
+Sep 16, 2026 2:24:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8131
+2026.09.16 02:25:00 INFO  compiling root (3 scala sources)
+2026.09.16 02:25:00 INFO  time: compiled root in 80ms
+2026.09.16 02:25:13 INFO  compiling root (3 scala sources)
+2026.09.16 02:25:13 INFO  time: compiled root in 68ms
+2026.09.16 02:25:33 INFO  compiling root (3 scala sources)
+2026.09.16 02:25:33 INFO  time: compiled root in 0.11s
+Sep 16, 2026 2:27:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8336
+2026.09.16 02:27:57 INFO  compiling root (3 scala sources)
+2026.09.16 02:27:57 INFO  time: compiled root in 0.11s
+2026.09.16 02:28:07 INFO  compiling root (3 scala sources)
+2026.09.16 02:28:07 INFO  time: compiled root in 0.11s
+2026.09.16 02:30:03 INFO  compiling root (3 scala sources)
+2026.09.16 02:30:03 INFO  time: compiled root in 0.11s
+2026.09.16 02:30:46 INFO  compiling root (3 scala sources)
+2026.09.16 02:30:46 INFO  time: compiled root in 0.12s
+2026.09.16 02:31:36 INFO  compiling root (3 scala sources)
+2026.09.16 02:31:36 INFO  time: compiled root in 0.11s
+2026.09.16 02:32:18 INFO  compiling root (3 scala sources)
+2026.09.16 02:32:18 INFO  time: compiled root in 0.11s
+2026.09.16 02:33:18 INFO  compiling root (3 scala sources)
+2026.09.16 02:33:18 INFO  time: compiled root in 0.12s
+2026.09.16 02:34:13 INFO  compiling root (3 scala sources)
+2026.09.16 02:34:13 INFO  time: compiled root in 0.12s
+2026.09.16 02:34:29 INFO  compiling root (3 scala sources)
+2026.09.16 02:34:29 INFO  time: compiled root in 0.12s
+2026.09.16 02:34:49 INFO  compiling root (3 scala sources)
+2026.09.16 02:34:49 INFO  time: compiled root in 0.11s
+2026.09.16 02:35:07 INFO  compiling root (3 scala sources)
+2026.09.16 02:35:07 INFO  time: compiled root in 0.11s
+2026.09.16 02:35:23 INFO  compiling root (3 scala sources)
+2026.09.16 02:35:23 INFO  time: compiled root in 0.1s
+2026.09.16 02:35:32 INFO  compiling root (3 scala sources)
+2026.09.16 02:35:32 INFO  time: compiled root in 0.11s
+2026.09.16 02:35:57 INFO  compiling root (3 scala sources)
+2026.09.16 02:35:57 INFO  time: compiled root in 0.16s
+Sep 16, 2026 2:36:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9322
+2026.09.16 02:36:10 INFO  compiling root (3 scala sources)
+2026.09.16 02:36:10 INFO  time: compiled root in 0.13s
+2026.09.16 02:36:21 INFO  compiling root (3 scala sources)
+2026.09.16 02:36:21 INFO  time: compiled root in 0.13s
+2026.09.16 02:36:30 INFO  compiling root (3 scala sources)
+2026.09.16 02:36:30 INFO  time: compiled root in 0.12s
+2026.09.16 02:37:19 INFO  compiling root (3 scala sources)
+2026.09.16 02:37:19 INFO  time: compiled root in 0.12s
+2026.09.16 02:38:35 INFO  compiling root (3 scala sources)
+2026.09.16 02:38:35 INFO  time: compiled root in 0.13s
+2026.09.16 02:39:05 INFO  compiling root (3 scala sources)
+2026.09.16 02:39:05 INFO  time: compiled root in 0.11s
+2026.09.16 02:40:25 INFO  compiling root (3 scala sources)
+2026.09.16 02:40:25 INFO  time: compiled root in 0.12s
+2026.09.16 02:42:10 INFO  compiling root (3 scala sources)
+2026.09.16 02:42:10 INFO  time: compiled root in 71ms
+2026.09.16 02:45:46 INFO  compiling root (3 scala sources)
+2026.09.16 02:45:46 INFO  time: compiled root in 85ms
+2026.09.16 02:45:49 INFO  compiling root (3 scala sources)
+2026.09.16 02:45:49 INFO  time: compiled root in 0.11s
+2026.09.16 02:47:05 INFO  compiling root (3 scala sources)
+2026.09.16 02:47:05 INFO  time: compiled root in 0.12s
+2026.09.16 02:47:53 INFO  compiling root (3 scala sources)
+2026.09.16 02:47:53 INFO  time: compiled root in 0.12s
+2026.09.16 02:48:39 INFO  compiling root (3 scala sources)
+2026.09.16 02:48:39 INFO  time: compiled root in 0.11s
+2026.09.16 02:50:14 INFO  compiling root (3 scala sources)
+2026.09.16 02:50:14 INFO  time: compiled root in 0.12s
+2026.09.16 02:51:50 INFO  Created report: Optional[file:///Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala]
+2026.09.16 02:51:50 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.09.16 02:51:56 INFO  compiling root (3 scala sources)
+2026.09.16 02:51:56 INFO  time: compiled root in 0.19s
+2026.09.16 02:52:54 INFO  compiling root (3 scala sources)
+2026.09.16 02:52:54 INFO  time: compiled root in 0.12s
+Sep 16, 2026 2:53:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11654
+2026.09.16 02:53:53 INFO  compiling root (3 scala sources)
+2026.09.16 02:53:53 INFO  time: compiled root in 0.12s
+2026.09.16 12:55:18 INFO  compiling root (3 scala sources)
+2026.09.16 12:55:18 INFO  time: compiled root in 0.46s
+Sep 16, 2026 12:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12206
+2026.09.16 12:55:26 INFO  compiling root (3 scala sources)
+2026.09.16 12:55:26 INFO  time: compiled root in 0.46s
+2026.09.16 12:59:48 INFO  compiling root (3 scala sources)
+2026.09.16 12:59:48 INFO  time: compiled root in 0.81s
+2026.09.16 13:00:04 INFO  compiling root (3 scala sources)
+2026.09.16 13:00:04 INFO  time: compiled root in 0.4s
+2026.09.16 13:14:20 INFO  compiling root (3 scala sources)
+2026.09.16 13:14:20 INFO  time: compiled root in 0.82s
+2026.09.16 13:14:32 INFO  compiling root (3 scala sources)
+2026.09.16 13:14:32 INFO  time: compiled root in 0.24s
+2026.09.16 13:15:00 INFO  compiling root (3 scala sources)
+2026.09.16 13:15:00 INFO  time: compiled root in 0.39s
+2026.09.16 13:15:27 INFO  compiling root (3 scala sources)
+2026.09.16 13:15:27 INFO  time: compiled root in 0.21s
+Sep 17, 2026 12:35:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13012
+2026.09.17 00:58:30 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.09.17 01:07:13 INFO  compiling root (3 scala sources)
+2026.09.17 01:07:13 INFO  time: compiled root in 0.5s
+2026.09.17 01:07:23 INFO  compiling root (3 scala sources)
+2026.09.17 01:07:23 INFO  time: compiled root in 0.19s
+2026.09.17 01:08:10 INFO  compiling root (3 scala sources)
+2026.09.17 01:08:10 INFO  time: compiled root in 0.13s
+2026.09.17 01:08:14 INFO  compiling root (3 scala sources)
+2026.09.17 01:08:14 INFO  time: compiled root in 0.12s
+2026.09.17 01:08:25 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+Sep 17, 2026 1:09:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14102
+2026.09.17 01:09:15 INFO  compiling root (3 scala sources)
+2026.09.17 01:09:15 INFO  time: compiled root in 0.16s
+2026.09.17 01:09:19 INFO  compiling root (3 scala sources)
+2026.09.17 01:09:19 INFO  time: compiled root in 0.12s
+2026.09.17 01:09:37 INFO  compiling root (3 scala sources)
+2026.09.17 01:09:37 INFO  time: compiled root in 0.29s
+2026.09.17 01:10:28 INFO  compiling root (3 scala sources)
+2026.09.17 01:10:28 INFO  time: compiled root in 0.24s
+2026.09.17 01:10:39 INFO  compiling root (3 scala sources)
+2026.09.17 01:10:39 INFO  time: compiled root in 0.15s
+2026.09.17 01:10:58 INFO  compiling root (3 scala sources)
+2026.09.17 01:10:58 INFO  time: compiled root in 0.17s
+2026.09.17 01:11:35 INFO  compiling root (3 scala sources)
+2026.09.17 01:11:35 INFO  time: compiled root in 0.17s
+2026.09.17 01:11:44 INFO  compiling root (3 scala sources)
+2026.09.17 01:11:44 INFO  time: compiled root in 0.15s
+2026.09.17 01:11:58 INFO  compiling root (3 scala sources)
+2026.09.17 01:11:58 INFO  time: compiled root in 0.14s
+2026.09.17 01:12:08 INFO  compiling root (3 scala sources)
+2026.09.17 01:12:08 INFO  time: compiled root in 0.17s
+Sep 17, 2026 1:12:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14546
+2026.09.17 01:12:14 INFO  compiling root (3 scala sources)
+2026.09.17 01:12:14 INFO  time: compiled root in 0.15s
+Sep 17, 2026 2:02:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15300
+2026.09.17 02:02:13 INFO  compiling root (3 scala sources)
+2026.09.17 02:02:13 INFO  time: compiled root in 0.21s
+2026.09.17 02:03:14 INFO  compiling root (3 scala sources)
+2026.09.17 02:03:14 INFO  time: compiled root in 0.23s
+2026.09.17 02:15:56 INFO  compiling root (3 scala sources)
+2026.09.17 02:15:56 INFO  time: compiled root in 0.14s
+2026.09.17 02:16:06 INFO  compiling root (3 scala sources)
+2026.09.17 02:16:06 INFO  time: compiled root in 77ms
+2026.09.17 02:16:06 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.09.17 02:16:19 INFO  compiling root (3 scala sources)
+2026.09.17 02:16:19 INFO  time: compiled root in 0.13s
+2026.09.17 02:18:16 INFO  compiling root (3 scala sources)
+2026.09.17 02:18:16 INFO  time: compiled root in 0.17s
+2026.09.17 02:19:22 ERROR scalafmt: [3.3.1] /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala:59: error: [dialect scala3] ; expected but . found
+    set.subsets().filter(_.nonEmpty)toList.sorted
+                                          ^
+2026.09.17 02:19:22 INFO  compiling root (3 scala sources)
+2026.09.17 02:19:22 INFO  time: compiled root in 94ms
+2026.09.17 02:19:25 INFO  compiling root (3 scala sources)
+2026.09.17 02:19:25 INFO  time: compiled root in 0.19s
+2026.09.17 02:21:30 INFO  compiling root (3 scala sources)
+2026.09.17 02:21:30 INFO  time: compiled root in 0.17s
+2026.09.17 02:23:17 INFO  compiling root (3 scala sources)
+2026.09.17 02:23:17 INFO  time: compiled root in 80ms
+2026.09.17 02:23:22 INFO  compiling root (3 scala sources)
+2026.09.17 02:23:22 INFO  time: compiled root in 76ms
+2026.09.17 02:23:29 INFO  compiling root (3 scala sources)
+2026.09.17 02:23:29 INFO  time: compiled root in 0.18s
+2026.09.17 02:23:58 INFO  compiling root (3 scala sources)
+2026.09.17 02:23:58 INFO  time: compiled root in 0.13s
+2026.09.17 02:24:07 INFO  compiling root (3 scala sources)
+2026.09.17 02:24:07 INFO  time: compiled root in 0.14s
+2026.09.17 02:25:38 INFO  compiling root (3 scala sources)
+2026.09.17 02:25:38 INFO  time: compiled root in 0.15s
+2026.09.17 02:27:19 INFO  compiling root (3 scala sources)
+2026.09.17 02:27:19 INFO  time: compiled root in 0.15s
+2026.09.17 02:28:19 INFO  compiling root (3 scala sources)
+2026.09.17 02:28:19 INFO  time: compiled root in 0.14s
+2026.09.17 02:28:34 INFO  compiling root (3 scala sources)
+2026.09.17 02:28:34 INFO  time: compiled root in 0.14s
+2026.09.17 02:28:47 INFO  compiling root (3 scala sources)
+2026.09.17 02:28:47 INFO  time: compiled root in 0.13s
+2026.09.17 02:28:55 INFO  compiling root (3 scala sources)
+2026.09.17 02:28:55 INFO  time: compiled root in 0.13s
+2026.09.17 02:29:04 INFO  compiling root (3 scala sources)
+2026.09.17 02:29:04 INFO  time: compiled root in 0.13s
+2026.09.18 01:21:47 INFO  Shutting down server
+2026.09.18 01:21:47 INFO  Memory monitor stopped
+2026.09.18 01:21:47 INFO  shutting down Metals
+2026.09.18 01:21:47 INFO  Shut down connection with build server.
+2026.09.18 01:21:47 INFO  Shut down connection with build server.
+2026.09.18 01:21:47 INFO  Shut down connection with build server.
+2026.09.18 01:21:47 INFO  Exiting server
+2026.09.21 12:37:04 INFO  Started: Metals version 1.6.9 in folders '/Users/Nhi/Downloads/cose212/scala-tutorial' for client Visual Studio Code 1.138.0.
+2026.09.21 12:37:04 INFO  Memory monitor started
+2026.09.21 12:37:04 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.21 12:37:04 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Sep 21, 2026 12:37:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.09.21 12:37:06 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.21 12:37:06 INFO  Attempting to connect to the build server...
+2026.09.21 12:37:06 INFO  Found a Bloop server running
+2026.09.21 12:37:06 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.21 12:37:06 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.21 12:37:06 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.09.21 12:37:06 INFO  Attempting to connect to the build server...
+2026.09.21 12:37:06 INFO  Found a Bloop server running
+2026.09.21 12:37:06 INFO  Attempting to connect to the build server...
+2026.09.21 12:37:06 INFO  Found a Bloop server running
+Sep 21, 2026 12:37:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.09.21 12:37:06 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.09.21 12:37:06 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.09.21 12:37:06 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.09.21 12:37:06 INFO  time: Connected to build server in 0.37s
+2026.09.21 12:37:06 INFO  Connected to Build server: Bloop v2.1.2
+2026.09.21 12:37:07 WARN  3.3.3 is no longer supported in the current Metals versions, using the last known supported version 1.5.1
+2026.09.21 12:37:09 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.09.21 12:37:09 INFO  time: indexed workspace in 3.13s
+2026.09.21 12:37:10 INFO  compiling root (3 scala sources)
+2026.09.21 12:37:11 INFO  time: compiled root in 1.28s
+2026.09.21 12:52:29 INFO  compiling root (3 scala sources)
+2026.09.21 12:52:29 INFO  time: compiled root in 0.39s
+2026.09.21 12:52:41 INFO  Shutting down server
+2026.09.21 12:52:41 INFO  Memory monitor stopped
+2026.09.21 12:52:41 INFO  shutting down Metals
+2026.09.21 12:52:41 INFO  Shut down connection with build server.
+2026.09.21 12:52:41 INFO  Shut down connection with build server.
+2026.09.21 12:52:41 INFO  Shut down connection with build server.
+2026.09.21 12:52:41 INFO  Exiting server
+2026.10.12 00:13:49 INFO  Started: Metals version 1.6.9 in folders '/Users/Nhi/Downloads/cose212/scala-tutorial' for client Visual Studio Code 1.138.0.
+2026.10.12 00:13:49 INFO  Memory monitor started
+2026.10.12 00:13:49 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.12 00:13:50 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 12, 2026 12:13:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.10.12 00:13:52 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.12 00:13:52 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.12 00:13:52 INFO  Attempting to connect to the build server...
+2026.10.12 00:13:52 INFO  Found a Bloop server running
+Oct 12, 2026 12:13:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Oct 12, 2026 12:13:52 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 12, 2026 12:13:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.10.12 00:13:52 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.10.12 00:13:52 INFO  Attempting to connect to the build server...
+2026.10.12 00:13:52 INFO  Found a Bloop server running
+2026.10.12 00:13:52 INFO  Attempting to connect to the build server...
+2026.10.12 00:13:52 INFO  Found a Bloop server running
+2026.10.12 00:13:52 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.10.12 00:13:52 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.10.12 00:13:52 INFO  time: Connected to build server in 0.44s
+2026.10.12 00:13:52 INFO  Connected to Build server: Bloop v2.1.2
+2026.10.12 00:13:52 INFO  time: Imported build in 0.11s
+2026.10.12 00:13:53 WARN  3.3.3 is no longer supported in the current Metals versions, using the last known supported version 1.5.1
+2026.10.12 00:13:56 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.12 00:13:56 INFO  time: indexed workspace in 4.35s
+2026.10.12 00:13:57 INFO  compiling root (3 scala sources)
+2026.10.12 00:13:58 INFO  time: compiled root in 1.53s
+Oct 12, 2026 12:14:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2026.10.12 00:14:36 INFO  compiling root (3 scala sources)
+2026.10.12 00:14:36 INFO  time: compiled root in 0.3s
+2026.10.12 00:14:36 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:57)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:86)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:164)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:66)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$discoverMainClasses$1(MetalsLspService.scala:1643)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$afterCompilationFinished$6(MetalsLspService.scala:1596)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.10.12 00:14:36 INFO  compiling root (3 scala sources)
+2026.10.12 00:14:36 INFO  time: compiled root in 0.23s
+2026.10.12 00:14:36 INFO  compiling root (3 scala sources)
+2026.10.12 00:14:37 INFO  time: compiled root in 0.33s
+2026.10.12 00:14:37 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:57)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:86)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:164)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:66)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$discoverMainClasses$1(MetalsLspService.scala:1643)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$afterCompilationFinished$6(MetalsLspService.scala:1596)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:503)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.10.13 17:13:30 INFO  Shutting down server
+2026.10.13 17:13:30 INFO  Memory monitor stopped
+2026.10.13 17:13:30 INFO  shutting down Metals
+2026.10.13 17:13:30 INFO  Shut down connection with build server.
+2026.10.13 17:13:30 INFO  Shut down connection with build server.
+2026.10.13 17:13:30 INFO  Shut down connection with build server.
+2026.10.13 17:13:30 INFO  Exiting server
+2026.10.14 17:10:12 INFO  Started: Metals version 1.6.9 in folders '/Users/Nhi/Downloads/cose212/scala-tutorial' for client Visual Studio Code 1.141.0.
+2026.10.14 17:10:12 INFO  Memory monitor started
+2026.10.14 17:10:12 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.14 17:10:12 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+Oct 14, 2026 5:10:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.10.14 17:10:14 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.14 17:10:14 INFO  Attempting to connect to the build server...
+2026.10.14 17:10:14 INFO  Found a Bloop server running
+2026.10.14 17:10:14 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.14 17:10:14 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.14 17:10:14 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.10.14 17:10:14 INFO  no build target found for /Users/Nhi/Downloads/cose212/scala-tutorial/src/main/scala/kuplrg/Implementation.scala. Using presentation compiler with project's scala-library version: 3.3.8
+2026.10.14 17:10:14 INFO  Attempting to connect to the build server...
+2026.10.14 17:10:14 INFO  Found a Bloop server running
+2026.10.14 17:10:14 INFO  Attempting to connect to the build server...
+2026.10.14 17:10:14 INFO  Found a Bloop server running
+Oct 14, 2026 5:10:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.10.14 17:10:14 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.10.14 17:10:14 INFO  Tracing is disabled for protocol BSP. To enable tracing of incoming and outgoing JSON messages, create an empty file at /Users/Nhi/Downloads/cose212/scala-tutorial/project/.metals/bsp.trace.json or /Users/Nhi/Library/Caches/org.scalameta.metals/bsp.trace.json
+2026.10.14 17:10:14 INFO  time: Connected to build server in 0.34s
+2026.10.14 17:10:14 INFO  Connected to Build server: Bloop v2.1.2
+2026.10.14 17:10:14 WARN  3.3.3 is no longer supported in the current Metals versions, using the last known supported version 1.5.1
+2026.10.14 17:10:17 WARN  Using H2 2.5.250 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.10.14 17:10:17 INFO  time: indexed workspace in 3.24s
+2026.10.14 17:10:17 INFO  compiling root (3 scala sources)
+2026.10.14 17:10:17 INFO  time: compiled root in 0.99s
+Oct 14, 2026 5:47:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 164
+2026.10.14 17:47:51 INFO  compiling root (3 scala sources)
+2026.10.14 17:47:51 INFO  time: compiled root in 0.77s
+2026.10.14 17:48:14 INFO  compiling root (3 scala sources)
+2026.10.14 17:48:14 INFO  time: compiled root in 0.35s
+2026.10.14 17:49:54 INFO  compiling root (3 scala sources)
+2026.10.14 17:49:54 INFO  time: compiled root in 0.32s
+2026.10.14 17:51:32 INFO  compiling root (3 scala sources)
+2026.10.14 17:51:32 INFO  time: compiled root in 0.21s
+Oct 14, 2026 5:51:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 451
+2026.10.14 17:53:25 INFO  compiling root (3 scala sources)
+2026.10.14 17:53:25 INFO  time: compiled root in 0.25s
+2026.10.14 18:07:17 INFO  compiling root (3 scala sources)
+2026.10.14 18:07:17 INFO  time: compiled root in 0.19s
+Oct 14, 2026 6:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1201
+2026.10.14 18:13:13 INFO  compiling root (3 scala sources)
+2026.10.14 18:13:13 INFO  time: compiled root in 0.21s
+Oct 14, 2026 6:13:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1343
+2026.10.14 18:13:49 INFO  compiling root (3 scala sources)
+2026.10.14 18:13:49 INFO  time: compiled root in 0.18s
+2026.10.14 18:14:41 INFO  compiling root (3 scala sources)
+2026.10.14 18:14:41 INFO  time: compiled root in 0.18s
+2026.10.14 18:15:15 INFO  compiling root (3 scala sources)
+2026.10.14 18:15:15 INFO  time: compiled root in 0.2s
+2026.10.14 18:15:30 INFO  compiling root (3 scala sources)
+2026.10.14 18:15:30 INFO  time: compiled root in 0.17s
+2026.10.14 18:15:41 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+Oct 14, 2026 6:19:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1648
+2026.10.14 19:20:17 INFO  compiling root (3 scala sources)
+2026.10.14 19:20:17 INFO  time: compiled root in 0.34s
+2026.10.14 19:20:28 INFO  compiling root (3 scala sources)
+2026.10.14 19:20:28 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:20:28 INFO  time: compiled root in 0.23s
+2026.10.14 19:20:52 INFO  compiling root (3 scala sources)
+2026.10.14 19:20:52 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:20:52 INFO  time: compiled root in 0.17s
+2026.10.14 19:20:56 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:20:56 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:20:56 INFO  compiling root (3 scala sources)
+2026.10.14 19:20:56 INFO  time: compiled root in 0.19s
+2026.10.14 19:21:01 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:21:01 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:21:01 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:21:01 INFO  compiling root (3 scala sources)
+2026.10.14 19:21:01 INFO  time: compiled root in 95ms
+2026.10.14 19:21:12 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:21:12 INFO  compiling root (3 scala sources)
+2026.10.14 19:21:12 INFO  time: compiled root in 0.3s
+Oct 14, 2026 7:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2481
+Oct 14, 2026 7:30:19 PM scala.meta.internal.metals.StdReporter create$$anonfun$1
+SEVERE: java.lang.IndexOutOfBoundsException: 0 (full report at: /Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-10-14/r_compiler-error_(root)_19-30-19-347.md)
+Oct 14, 2026 7:32:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2739
+2026.10.14 19:33:36 INFO  compiling root (3 scala sources)
+2026.10.14 19:33:36 INFO  time: compiled root in 0.11s
+2026.10.14 19:33:47 INFO  compiling root (3 scala sources)
+2026.10.14 19:33:47 INFO  time: compiled root in 97ms
+2026.10.14 19:33:49 INFO  compiling root (3 scala sources)
+2026.10.14 19:33:49 INFO  time: compiled root in 0.19s
+Oct 14, 2026 7:34:26 PM scala.meta.internal.metals.StdReporter create$$anonfun$1
+SEVERE: java.lang.IndexOutOfBoundsException: 0 (full report at: /Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-10-14/r_compiler-error_(root)_19-34-26-196.md)
+2026.10.14 19:34:46 INFO  compiling root (3 scala sources)
+2026.10.14 19:34:46 INFO  time: compiled root in 0.2s
+2026.10.14 19:34:52 INFO  compiling root (3 scala sources)
+2026.10.14 19:34:52 INFO  time: compiled root in 0.18s
+2026.10.14 19:34:56 INFO  compiling root (3 scala sources)
+2026.10.14 19:34:56 INFO  time: compiled root in 90ms
+2026.10.14 19:35:35 INFO  compiling root (3 scala sources)
+2026.10.14 19:35:35 INFO  time: compiled root in 0.15s
+Oct 14, 2026 7:36:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3285
+2026.10.14 19:36:50 INFO  compiling root (3 scala sources)
+2026.10.14 19:36:50 INFO  time: compiled root in 0.16s
+2026.10.14 19:37:24 INFO  compiling root (3 scala sources)
+2026.10.14 19:37:24 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:37:24 INFO  time: compiled root in 0.16s
+2026.10.14 19:37:46 INFO  compiling root (3 scala sources)
+2026.10.14 19:37:46 INFO  time: compiled root in 0.16s
+2026.10.14 19:38:45 INFO  compiling root (3 scala sources)
+2026.10.14 19:38:45 INFO  time: compiled root in 0.15s
+Oct 14, 2026 7:48:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3751
+Oct 14, 2026 7:48:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3899
+Oct 14, 2026 7:51:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4206
+2026.10.14 19:55:25 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 19:55:25 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026.10.14 19:55:32 INFO  compiling root (3 scala sources)
+2026.10.14 19:55:32 INFO  time: compiled root in 0.2s
+Oct 14, 2026 7:57:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5385
+2026.10.14 19:57:50 INFO  compiling root (3 scala sources)
+2026.10.14 19:57:50 INFO  time: compiled root in 0.17s
+2026.10.14 19:58:22 INFO  compiling root (3 scala sources)
+2026.10.14 19:58:22 INFO  time: compiled root in 0.16s
+Oct 14, 2026 7:59:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.14 19:59:14 INFO  compiling root (3 scala sources)
+2026.10.14 19:59:14 INFO  time: compiled root in 0.16s
+2026.10.14 20:07:34 INFO  compiling root (3 scala sources)
+2026.10.14 20:07:34 INFO  time: compiled root in 0.23s
+Oct 14, 2026 8:12:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5868
+2026.10.14 20:12:59 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:13:07 INFO  compiling root (3 scala sources)
+2026.10.14 20:13:07 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:13:07 INFO  time: compiled root in 0.21s
+2026.10.14 20:14:35 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:14:35 INFO  compiling root (3 scala sources)
+2026.10.14 20:14:35 INFO  time: compiled root in 0.17s
+2026.10.14 20:15:31 INFO  compiling root (3 scala sources)
+2026.10.14 20:15:31 INFO  time: compiled root in 0.11s
+2026.10.14 20:15:34 INFO  compiling root (3 scala sources)
+2026.10.14 20:15:34 INFO  time: compiled root in 0.17s
+2026.10.14 20:15:45 INFO  compiling root (3 scala sources)
+2026.10.14 20:15:45 INFO  time: compiled root in 0.16s
+2026.10.14 20:16:34 INFO  compiling root (3 scala sources)
+2026.10.14 20:16:34 INFO  time: compiled root in 0.18s
+Oct 14, 2026 8:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7041
+2026.10.14 20:29:06 INFO  compiling root (3 scala sources)
+2026.10.14 20:29:06 INFO  time: compiled root in 0.21s
+2026.10.14 20:29:12 INFO  compiling root (3 scala sources)
+2026.10.14 20:29:12 INFO  time: compiled root in 0.16s
+2026.10.14 20:29:47 INFO  compiling root (3 scala sources)
+2026.10.14 20:29:47 INFO  time: compiled root in 0.16s
+2026.10.14 20:29:57 INFO  compiling root (3 scala sources)
+2026.10.14 20:29:57 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:29:57 INFO  time: compiled root in 0.36s
+2026.10.14 20:30:01 INFO  compiling root (3 scala sources)
+2026.10.14 20:30:01 INFO  time: compiled root in 0.19s
+2026.10.14 20:30:04 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:30:04 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:30:04 INFO  compiling root (3 scala sources)
+2026.10.14 20:30:04 INFO  time: compiled root in 0.16s
+2026.10.14 20:30:06 INFO  compiling root (3 scala sources)
+2026.10.14 20:30:06 INFO  time: compiled root in 0.17s
+2026.10.14 20:30:50 INFO  compiling root (3 scala sources)
+2026.10.14 20:30:50 INFO  time: compiled root in 0.18s
+2026.10.14 20:31:25 INFO  compiling root (3 scala sources)
+2026.10.14 20:31:25 INFO  time: compiled root in 0.21s
+2026.10.14 20:31:32 INFO  compiling root (3 scala sources)
+2026.10.14 20:31:32 INFO  time: compiled root in 0.15s
+2026.10.14 20:37:23 INFO  compiling root (3 scala sources)
+2026.10.14 20:37:23 WARN  Could not find 'String' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:37:23 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:37:23 INFO  time: compiled root in 0.2s
+2026.10.14 20:38:31 INFO  compiling root (3 scala sources)
+2026.10.14 20:38:31 INFO  time: compiled root in 0.28s
+2026.10.14 20:38:46 INFO  compiling root (3 scala sources)
+2026.10.14 20:38:46 INFO  time: compiled root in 0.18s
+2026.10.14 20:39:07 WARN  Could not find 'String' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:39:07 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026.10.14 20:39:07 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:39:07 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:39:09 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:39:13 INFO  compiling root (3 scala sources)
+2026.10.14 20:39:13 INFO  time: compiled root in 0.17s
+2026.10.14 20:40:08 INFO  compiling root (3 scala sources)
+2026.10.14 20:40:08 INFO  time: compiled root in 0.24s
+2026.10.14 20:41:57 INFO  compiling root (3 scala sources)
+2026.10.14 20:41:57 INFO  time: compiled root in 0.26s
+2026.10.14 20:42:37 WARN  Could not find 'Set' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:42:37 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:42:37 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:42:37 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:42:40 INFO  compiling root (3 scala sources)
+2026.10.14 20:42:40 INFO  time: compiled root in 0.16s
+2026.10.14 20:43:08 INFO  compiling root (3 scala sources)
+2026.10.14 20:43:08 WARN  Could not find 'Set' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:43:08 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:43:08 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:43:08 INFO  time: compiled root in 0.21s
+2026.10.14 20:43:11 INFO  compiling root (3 scala sources)
+2026.10.14 20:43:11 INFO  time: compiled root in 0.15s
+2026.10.14 20:43:28 INFO  compiling root (3 scala sources)
+2026.10.14 20:43:28 INFO  time: compiled root in 0.18s
+2026.10.14 20:43:55 INFO  compiling root (3 scala sources)
+2026.10.14 20:43:55 INFO  time: compiled root in 0.17s
+Oct 14, 2026 8:44:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9799
+2026.10.14 20:44:59 INFO  compiling root (3 scala sources)
+2026.10.14 20:44:59 INFO  time: compiled root in 0.18s
+2026.10.14 20:45:14 WARN  Could not find 'Set' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:45:14 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:45:14 INFO  compiling root (3 scala sources)
+2026.10.14 20:45:14 WARN  Could not find 'Set' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:45:14 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:45:14 INFO  time: compiled root in 0.22s
+2026.10.14 20:45:15 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:45:34 INFO  compiling root (3 scala sources)
+2026.10.14 20:45:34 INFO  time: compiled root in 0.17s
+2026.10.14 20:45:45 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:45:45 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:45:45 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:45:49 INFO  compiling root (3 scala sources)
+2026.10.14 20:45:49 INFO  time: compiled root in 0.17s
+2026.10.14 20:46:04 WARN  Could not find 'Set' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2026.10.14 20:46:04 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 20:46:05 INFO  compiling root (3 scala sources)
+2026.10.14 20:46:05 INFO  time: compiled root in 0.17s
+2026.10.14 20:46:14 INFO  compiling root (3 scala sources)
+2026.10.14 20:46:14 INFO  time: compiled root in 0.16s
+2026.10.14 20:50:17 INFO  compiling root (3 scala sources)
+2026.10.14 20:50:17 INFO  time: compiled root in 0.26s
+2026.10.14 20:50:50 INFO  compiling root (3 scala sources)
+2026.10.14 20:50:50 INFO  time: compiled root in 0.12s
+2026.10.14 20:51:01 INFO  compiling root (3 scala sources)
+2026.10.14 20:51:01 INFO  time: compiled root in 0.15s
+2026.10.14 20:51:29 INFO  compiling root (3 scala sources)
+2026.10.14 20:51:29 INFO  time: compiled root in 0.17s
+2026.10.14 20:52:48 INFO  compiling root (3 scala sources)
+2026.10.14 20:52:48 INFO  time: compiled root in 0.26s
+2026.10.14 20:52:54 INFO  compiling root (3 scala sources)
+2026.10.14 20:52:54 INFO  time: compiled root in 0.21s
+2026.10.14 20:54:37 INFO  compiling root (3 scala sources)
+2026.10.14 20:54:37 INFO  time: compiled root in 0.2s
+2026.10.14 20:55:12 INFO  compiling root (3 scala sources)
+2026.10.14 20:55:12 INFO  time: compiled root in 0.18s
+2026.10.14 20:55:23 INFO  compiling root (3 scala sources)
+2026.10.14 20:55:23 INFO  time: compiled root in 0.21s
+2026.10.14 20:55:30 INFO  compiling root (3 scala sources)
+2026.10.14 20:55:30 INFO  time: compiled root in 0.17s
+Oct 14, 2026 8:56:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11210
+2026.10.14 20:57:38 INFO  compiling root (3 scala sources)
+2026.10.14 20:57:38 INFO  time: compiled root in 0.2s
+2026.10.14 20:57:43 INFO  compiling root (3 scala sources)
+2026.10.14 20:57:43 INFO  time: compiled root in 0.18s
+2026.10.14 20:57:52 INFO  compiling root (3 scala sources)
+2026.10.14 20:57:52 INFO  time: compiled root in 0.18s
+2026.10.14 20:58:05 INFO  compiling root (3 scala sources)
+2026.10.14 20:58:05 INFO  time: compiled root in 0.17s
+2026.10.14 20:58:29 INFO  compiling root (3 scala sources)
+2026.10.14 20:58:29 INFO  time: compiled root in 0.16s
+2026.10.14 20:58:39 INFO  compiling root (3 scala sources)
+2026.10.14 20:58:39 INFO  time: compiled root in 0.16s
+2026.10.14 21:00:37 INFO  compiling root (3 scala sources)
+2026.10.14 21:00:37 INFO  time: compiled root in 0.18s
+2026.10.14 21:00:53 INFO  compiling root (3 scala sources)
+2026.10.14 21:00:53 INFO  time: compiled root in 0.17s
+2026.10.14 21:00:59 INFO  compiling root (3 scala sources)
+2026.10.14 21:00:59 INFO  time: compiled root in 0.17s
+Oct 14, 2026 9:02:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11695
+2026.10.14 21:02:43 INFO  compiling root (3 scala sources)
+2026.10.14 21:02:43 INFO  time: compiled root in 0.23s
+2026.10.14 21:02:48 INFO  compiling root (3 scala sources)
+2026.10.14 21:02:48 INFO  time: compiled root in 0.18s
+2026.10.14 21:06:15 INFO  compiling root (3 scala sources)
+2026.10.14 21:06:15 INFO  time: compiled root in 0.23s
+2026.10.14 21:06:25 INFO  compiling root (3 scala sources)
+2026.10.14 21:06:25 INFO  time: compiled root in 0.19s
+2026.10.14 21:06:41 INFO  compiling root (3 scala sources)
+2026.10.14 21:06:41 INFO  time: compiled root in 0.17s
+2026.10.14 21:07:32 INFO  compiling root (3 scala sources)
+2026.10.14 21:07:32 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:07:32 INFO  time: compiled root in 0.17s
+2026.10.14 21:08:01 INFO  compiling root (3 scala sources)
+2026.10.14 21:08:01 INFO  time: compiled root in 0.18s
+2026.10.14 21:10:50 INFO  compiling root (3 scala sources)
+2026.10.14 21:10:50 INFO  time: compiled root in 0.11s
+2026.10.14 21:10:53 INFO  compiling root (3 scala sources)
+2026.10.14 21:10:53 INFO  time: compiled root in 89ms
+2026.10.14 21:11:07 INFO  compiling root (3 scala sources)
+2026.10.14 21:11:07 INFO  time: compiled root in 0.17s
+Oct 14, 2026 9:12:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13010
+2026.10.14 21:12:33 INFO  compiling root (3 scala sources)
+2026.10.14 21:12:33 INFO  time: compiled root in 0.18s
+2026.10.14 21:12:44 INFO  compiling root (3 scala sources)
+2026.10.14 21:12:44 INFO  time: compiled root in 0.17s
+2026.10.14 21:12:59 INFO  compiling root (3 scala sources)
+2026.10.14 21:12:59 INFO  time: compiled root in 0.17s
+2026.10.14 21:13:09 INFO  compiling root (3 scala sources)
+2026.10.14 21:13:09 INFO  time: compiled root in 0.11s
+2026.10.14 21:13:11 INFO  compiling root (3 scala sources)
+2026.10.14 21:13:11 INFO  time: compiled root in 0.15s
+2026.10.14 21:14:29 INFO  compiling root (3 scala sources)
+2026.10.14 21:14:29 INFO  time: compiled root in 0.19s
+2026.10.14 21:14:38 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:14:42 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:14:42 INFO  compiling root (3 scala sources)
+2026.10.14 21:14:42 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:14:42 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:14:42 INFO  time: compiled root in 0.17s
+2026.10.14 21:14:54 INFO  compiling root (3 scala sources)
+2026.10.14 21:14:54 INFO  time: compiled root in 0.16s
+2026.10.14 21:15:31 INFO  compiling root (3 scala sources)
+2026.10.14 21:15:31 INFO  time: compiled root in 0.1s
+2026.10.14 21:15:42 INFO  compiling root (3 scala sources)
+2026.10.14 21:15:42 INFO  time: compiled root in 99ms
+Oct 14, 2026 9:15:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13780
+2026.10.14 21:15:56 INFO  compiling root (3 scala sources)
+2026.10.14 21:15:56 INFO  time: compiled root in 87ms
+2026.10.14 21:16:22 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:16:22 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:16:22 INFO  compiling root (3 scala sources)
+2026.10.14 21:16:22 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "/Users/Nhi/Downloads/cose212/scala-tutorial/.metals/.reports/metals-full/2026-09-16/r_empty-definition_(root)_02-51-50-565.md")
+2026.10.14 21:16:22 INFO  time: compiled root in 0.16s
+Oct 14, 2026 9:20:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.10.14 21:21:04 INFO  Shutting down server
+2026.10.14 21:21:04 INFO  Memory monitor stopped
+2026.10.14 21:21:04 INFO  shutting down Metals
+2026.10.14 21:21:05 INFO  Shut down connection with build server.
+2026.10.14 21:21:05 INFO  Shut down connection with build server.
+2026.10.14 21:21:05 INFO  Shut down connection with build server.
+2026.10.14 21:21:04 INFO  Exiting server
